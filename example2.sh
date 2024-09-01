@@ -15,4 +15,4 @@ then
 else
 	echo " $c is largest number of $a and $b" 
 fi
-
+echo "------------------------------------------------"
