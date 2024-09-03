@@ -8,9 +8,7 @@ echo " $dirname is not existence..."
 else
 echo " $dir is existence..."
 fi
-<<<<<<< HEAD
 echo " updated this file........"
 =======
 
 echo " This file was in the developement branch...."
->>>>>>> developement
