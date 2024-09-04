@@ -17,3 +17,13 @@ else
 fi
 echo "------------------------------------------------"
 echo " hello updated again"
+echo " Check the file existence or not.. if existence display the content"
+read -p " Please enter the filename:" filename
+if [[ -f $filename ]]
+then
+	echo " $filename this file is existence.."
+	cat $filename
+else
+	echo " $filename This file is not existed..."
+fi
+
