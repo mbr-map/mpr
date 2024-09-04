@@ -1,3 +1,5 @@
 .classpath
 .setting
-/node_modulus
+node_modulus
+.classpath
+.settings
