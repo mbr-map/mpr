@@ -2,6 +2,7 @@
 # write a shell script to Check weather the empty dir existance or not
 echo " Check weather the dir existence or not "
 read -p " Please enter the directory-name :" dirname
+
 if [[  $dirname ]]
 then
 echo " $dirname is not existence..."
