@@ -13,3 +13,14 @@ else
 	echo " Creating the file and updating the content.."
 	cat > $filename
 fi
+echo " updating the new features..."
+#write a shell script to check the directory existence or not?
+
+echo " Check weather the dir existence or not "
+read -p " Please enter the dirname: " dir
+if [[ -r $dir ]]
+then
+	echo " $dir is existence"
+else
+	echo " $dir is not existence"
+fi
