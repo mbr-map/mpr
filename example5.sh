@@ -8,3 +8,24 @@ do
 	echo " a value is : $a"
 done
 
+echo " ---------------------------------------------------------------------------------"
+echo " updating the new code..."
+echo " you are using the funcations.."
+add()
+{
+	echo " your started add funcation"
+	a=10
+	b=40
+	sum=`expr $a + $b`
+	echo " Adding the two numbers : " $sum
+}
+sub()
+{
+	echo " your started sub function.."
+	a=40
+	b=1
+	sub=`expr $a - $b`
+	echo " subtracting two numbers : " $sub
+}
+add
+sub
