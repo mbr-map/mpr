@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo " you are using the funcations.."
+add()
+{
+	a=10
+	b=20
+	sum=`expr $a + $b `
+	echo " Adding the two numbers $sum
