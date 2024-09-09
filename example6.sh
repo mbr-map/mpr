@@ -7,3 +7,6 @@ do
 	echo "while-loop :$a"
 	(( a++ ))
 done
+
+echo " the code is update"
+
